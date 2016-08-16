@@ -109,6 +109,10 @@ module MAGI
         o["Applicant Income Medicaid Eligible Indicator"] = "N"
         o["Income Medicaid Eligible Determination Date"] = current_date
         o["Income Medicaid Eligible Ineligibility Reason"] = 401
+      elsif ((v( "Applicant Age") < 21) && (o["Calculated Income as Percentage of FPL"] <= 220.99))
+        o["Applicant Income Medicaid Eligible Indicator"] = "Y"
+        o["Income Medicaid Eligible Determination Date"] = current_date
+        o["Income Medicaid Eligible Ineligibility Reason"] = 999  
       elsif v("Calculated Income") > v("Max Eligible Medicaid Income")
         o["Applicant Income Medicaid Eligible Indicator"] = "N"
         o["Income Medicaid Eligible Determination Date"] = current_date
