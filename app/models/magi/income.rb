@@ -27,10 +27,6 @@ module MAGI
     code      "Income Medicaid Eligible Ineligibility Reason", %w(999 401 402)
     output    "Category Used to Calculate CHIP Income", "String"
     indicator "Applicant Income CHIP Eligible Indicator", %w(Y N)
-
-# encoding: UTF-8
-
-​
     date      "Income CHIP Eligible Determination Date"
     code      "Income CHIP Eligible Ineligibility Reason", %w(999 401 402)
     output    "Calculated Income as Percentage of FPL", "Integer"
