@@ -147,7 +147,7 @@ class IncomeFixture < MagiFixture
           "Applicant Child Category Indicator" => "N",
           "Applicant Optional Targeted Low Income Child Indicator" => "N",
           "Applicant CHIP Targeted Low Income Child Indicator" => "N",
-          "Calculated Income" => 44600, # slightly higher than fpl * percentage medicaid from above
+          "Calculated Income" => 22090, # slightly higher than fpl * percentage medicaid from above
           "Medicaid Household" => MedicaidHousehold.new("house", '', '', '', 3),
           "Applicant Age" => 20
         },
