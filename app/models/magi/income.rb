@@ -27,6 +27,10 @@ module MAGI
     code      "Income Medicaid Eligible Ineligibility Reason", %w(999 401 402)
     output    "Category Used to Calculate CHIP Income", "String"
     indicator "Applicant Income CHIP Eligible Indicator", %w(Y N)
+
+# encoding: UTF-8
+
+​
     date      "Income CHIP Eligible Determination Date"
     code      "Income CHIP Eligible Ineligibility Reason", %w(999 401 402)
     output    "Calculated Income as Percentage of FPL", "Integer"
@@ -108,7 +112,7 @@ module MAGI
       if v("Max Eligible Medicaid Category") == "None"
         o["Applicant Income Medicaid Eligible Indicator"] = "N"
         o["Income Medicaid Eligible Determination Date"] = current_date
-        o["Income Medicaid Eligible Ineligibility Reason"] = 401 
+        o["Income Medicaid Eligible Ineligibility Reason"] = 401
       elsif v("Calculated Income") > v("Max Eligible Medicaid Income")
         o["Applicant Income Medicaid Eligible Indicator"] = "N"
         o["Income Medicaid Eligible Determination Date"] = current_date
