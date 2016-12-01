@@ -1,3 +1,5 @@
+
+server '54.89.99.32', user: 'venumadhav', roles: [:web, :app]
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
