@@ -19,7 +19,7 @@ gem "gon"
 gem "httparty"
 gem 'ci_reporter_rspec'
 gem "rails_12factor"
- gem 'jasmine'
+ gem 'jasmine'	
  gem 'eye'
  gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
@@ -41,6 +41,7 @@ group :test do
 	gem 'minitest-reporters'
 	gem 'faker'
 	gem 'sqlite3'
+	gem 'rake', group: :test
 end
 
 
@@ -48,5 +49,5 @@ end
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 # travis
-gem 'rake', group: :test
+
 
