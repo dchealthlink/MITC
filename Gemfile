@@ -23,6 +23,7 @@ gem "rails_12factor"
  gem 'eye'
  gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
+gem 'foreman', '~> 0.82.0'
 
 group :production do
  gem 'unicorn'
