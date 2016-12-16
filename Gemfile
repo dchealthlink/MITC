@@ -45,9 +45,6 @@ group :test do
 	gem 'faker'
 	gem 'sqlite3'
 end
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
 
-# travis
 gem 'rake', group: :test
 
