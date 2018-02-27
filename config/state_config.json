@@ -40,7 +40,25 @@
           41320
         ],
         "FPL Per Extra Person": 4180
-      }
+      },
+      "2018": {
+        "Base FPL": 12140,
+        "FPL By Age": [
+                12140,
+                16460,
+                20780,
+                25100,
+                29420,
+                33740,
+                38060,
+                42380,
+                46700,
+                51020,
+                55340,
+                59660
+         ],       
+         "FPL Per Extra Person": 4320
+     }
     },
 
     "Option Householding Minor Student": "Y",
